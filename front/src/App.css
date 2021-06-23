@@ -1,0 +1,53 @@
+.app {
+    padding: 0 100px;
+}
+.navbar {
+    padding: 0 100px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: lightgray;
+}
+.al-ct {align-items: center}
+.m-10 {margin: 10px}
+.m-20 {margin: 20px}
+.p-10 {padding: 10px}
+.p-20 {padding: 20px}
+.flex {
+    display: flex
+}
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+.active {
+    background-color: slategrey;
+    border-radius: 5px;
+}
+.logo {
+    margin: 5px 50px;
+    height: 50px;
+    object-fit: contain;
+}
+.nav-link {
+    margin: 10px;
+    padding: 5px 15px;
+}
+.auth-field {
+    box-sizing: border-box;
+    width: 400px;
+    padding: 5px;
+}
+.auth-box {
+    padding: 10px 10px 20px;
+    margin: 10px;
+    justify-content: space-around;
+    width: 500px;
+    /*height: 300px;*/
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+.switch {
+    background-color: darkolivegreen;
+}
